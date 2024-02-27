@@ -1,0 +1,108 @@
+p{
+    overflow-wrap: break-word;
+}
+.line{
+    border-bottom: 3px dashed green;
+}
+.text-713c18{
+    color: #713c18;
+}
+.half_gray{
+    background: linear-gradient(to bottom, #efefef 67%, #ffffff 50%)
+}
+.font-19{
+    font-size: 19px;
+}
+.responsibility-img{
+    width: 90%!important;
+}
+.responsibility-btn-area{
+    margin-top: 2rem!important;
+}
+.responsibility-title{
+    width: 35%!important;
+}
+.responsibility-video{
+    height: 100%;
+    width: 365px;
+}
+.trace{
+    width: 4%;
+    border: 3px solid black;
+}
+section.recognition{
+    background: linear-gradient(to bottom, white 70%, #dfd4c3 30%)
+}
+section.report{
+    background: linear-gradient(to bottom, #efefef 40%, #ffffff 30%);
+}
+.report-img{
+    width: 775px;
+    /* height: 645px; */
+    height: 100%;
+}
+.responsibility-video-area{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+@media only screen and (max-width: 1536px) {
+    .half_gray{
+        background: linear-gradient(to bottom, #efefef 66%, #ffffff 0%);
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .half_gray{
+        background: linear-gradient(to bottom, #efefef 64%, #ffffff 0%);
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .responsibility-video-area{
+        display: flex;
+        justify-content: center;
+    }
+    .management-colums{
+        grid-template-columns: repeat(1, minmax(0, 1fr))!important;
+    }
+    .row-responsibility-mobile{
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+    .half_gray{
+        background: linear-gradient(to bottom, #efefef 49.6%, #ffffff 0%)
+    }
+    .responsibility-title, .responsibility-subtitle, .responsibility-text{
+        text-align: center;
+        width: 100%!important;
+    }
+    .responsibility-btn-area, .report-btn-area{
+        display: flex;
+        justify-content: center;
+    }
+    .responsibility-btn-area>a, .report-btn-area>a{
+        margin-bottom: 2.5rem !important;
+    }
+    .p-0-md{
+        padding: 0!important;
+    }
+    .pt-2-md{
+        padding: 0.5rem!important;
+    }
+    .m-0-md{
+        margin: 0!important;
+    }
+    .report > .container > .row{
+
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+    .report-mobile-text, .report-mobile-title{
+        text-align: center;
+    }
+    .w-100-mobile{
+        width: 100%;
+    }
+    .management-card{
+        height: 900px!important;
+    }
+}
